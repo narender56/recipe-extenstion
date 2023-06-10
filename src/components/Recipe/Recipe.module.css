@@ -1,0 +1,36 @@
+.recipe-card {
+    margin: 32px 0;
+}
+
+.recipe-details {
+    margin: 16px 0;
+}
+
+.recipe-wrapper {
+    width: 100%;
+}
+
+.recipe-card-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recipe-card-title {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.recipe-card-icon {
+    height: 32px;
+    width: 32px;
+    margin-right: 12px;
+    border-radius: 6px;
+}
+
+.recipe-social-media-icons {
+    display: flex;
+}

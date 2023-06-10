@@ -1,0 +1,17 @@
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    width: 35px;
+    height: 35px;
+    background: #161f2f;
+    border-radius: 30px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+    background: transparent;
+}
