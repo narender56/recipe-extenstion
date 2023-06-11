@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Recipe } from '../../apis/useGetRecipes';
+import { Recipe } from '../../../apis/useGetRecipes';
 import styles from './RecipeDetails.module.css';
 
 

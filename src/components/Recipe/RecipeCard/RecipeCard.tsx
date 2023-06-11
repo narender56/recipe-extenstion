@@ -1,10 +1,10 @@
 import React from 'react';
-import Button from '../Button/Button';
 
-import RecipeIcon from '../../assets/img/recipe.png';
+import Button from '../../Button/Button';
+import { Recipe } from '../../../apis/useGetRecipes';
+import RecipeIcon from '../../../assets/img/recipe.png';
 
 import styles from './RecipeCard.module.css';
-import { Recipe } from '../../apis/useGetRecipes';
 
 interface RecipeCardProps {
     className?: string;

@@ -2,10 +2,10 @@ import React from 'react';
 
 import { Recipe } from '../../apis/useGetRecipes';
 import RoundedIcon from '../RoundedIcon/RoundedIcon';
+import RecipeCard from './RecipeCard/RecipeCard';
+import RecipeDetails from './RecipeDetails/RecipeDetails';
 
 import styles from './Recipe.module.css';
-import RecipeCard from '../RecipeCard/RecipeCard';
-import RecipeDetails from '../RecipeDetails/RecipeDetails';
 
 interface RecipeComponentProps {
     recipe: Recipe
